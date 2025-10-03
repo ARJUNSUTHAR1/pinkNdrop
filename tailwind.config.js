@@ -12,6 +12,7 @@ module.exports = {
               JakartaLight: ["Jakarta-Light", "sans-serif"],
               JakartaMedium: ["Jakarta-Medium", "sans-serif"],
               JakartaSemiBold: ["Jakarta-SemiBold", "sans-serif"],
+              BrotherSign: ["BrotherSignature"],
           },
           colors: {
               primary: {

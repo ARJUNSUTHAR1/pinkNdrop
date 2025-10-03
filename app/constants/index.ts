@@ -80,6 +80,15 @@ export const icons = {
     to,
 };
 
+export const categories = [
+    "Breakfast",
+    "Lunch",
+    "Dinner",
+    "Snacks",
+    "Dessert",
+    "Beverages",
+]
+
 export const onboarding = [
     {
         id: 1,

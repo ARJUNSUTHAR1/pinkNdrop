@@ -1,0 +1,12 @@
+import { useUser } from '@clerk/clerk-expo'
+import { Text, View } from 'react-native'
+
+export default function Profile() {
+  const { user } = useUser()
+
+  return (
+    <View>
+        <Text>Hello {user?.emailAddresses[0].emailAddress}</Text> 
+    </View>
+  )
+}

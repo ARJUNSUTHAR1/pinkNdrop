@@ -1,7 +1,13 @@
-import { Stack } from 'expo-router';
+import { useAuth } from '@clerk/clerk-expo';
+import { Redirect, Stack } from 'expo-router';
 
 const AuthLayout = ()=> {
 
+const { isSignedIn } = useAuth();
+
+if(isSignedIn){
+  return <Redirect href="/(root)/(tabs)/home" />
+}
 
   return (
     <Stack>
